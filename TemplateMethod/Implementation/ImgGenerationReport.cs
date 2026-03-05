@@ -13,7 +13,7 @@ namespace TemplateMethod
             return new() { Message = "Extracting using AI Model and convert to string" };
         }
 
-        public void PdfGenerateReport()
+        public void ImgGenerateReport()
         {
             Console.WriteLine(ReadFile());
             Console.WriteLine(ExtractData(ReadFile()).Message);

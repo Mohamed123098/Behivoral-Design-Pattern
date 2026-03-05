@@ -13,7 +13,7 @@ namespace TemplateMethod
             return new() { Message = "Extracting to string directly" };
         }
 
-        public void PdfGenerateReport()
+        public void WordGenerateReport()
         {
             Console.WriteLine(ReadFile());
             Console.WriteLine(ExtractData(ReadFile()).Message);
