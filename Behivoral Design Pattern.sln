@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "..\Memento\Memento.csproj", "{706A5C4D-5630-4B6A-9DAD-E2764134E537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistor", "..\Vistor\Vistor.csproj", "{F77E8FAA-FE6C-4C23-8BC0-BA403EE3A2BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{706A5C4D-5630-4B6A-9DAD-E2764134E537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{706A5C4D-5630-4B6A-9DAD-E2764134E537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{706A5C4D-5630-4B6A-9DAD-E2764134E537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77E8FAA-FE6C-4C23-8BC0-BA403EE3A2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77E8FAA-FE6C-4C23-8BC0-BA403EE3A2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77E8FAA-FE6C-4C23-8BC0-BA403EE3A2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77E8FAA-FE6C-4C23-8BC0-BA403EE3A2BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
