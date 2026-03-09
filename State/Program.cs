@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            OrderManagement orderManagement = new() { Order = new() { Name = "Jacket", Price = 800 } };
+            orderManagement.ProcessOrder();
+            orderManagement.ProcessOrder();
+            orderManagement.ShippedOrder();
+            orderManagement.CancelledOrder();
+            orderManagement.DeliveredOrder();
         }
     }
 }

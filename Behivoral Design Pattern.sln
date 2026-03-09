@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{D6EC2A87-22CB-4CE5-9F53-410D5A1914DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meditor", "Meditor\Meditor.csproj", "{DA6948CB-5FC0-485A-AB37-486D8869A3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{3C65923A-8422-4CC2-B7BE-AFF086868FBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{D6EC2A87-22CB-4CE5-9F53-410D5A1914DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6EC2A87-22CB-4CE5-9F53-410D5A1914DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6EC2A87-22CB-4CE5-9F53-410D5A1914DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6948CB-5FC0-485A-AB37-486D8869A3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6948CB-5FC0-485A-AB37-486D8869A3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6948CB-5FC0-485A-AB37-486D8869A3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6948CB-5FC0-485A-AB37-486D8869A3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C65923A-8422-4CC2-B7BE-AFF086868FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C65923A-8422-4CC2-B7BE-AFF086868FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C65923A-8422-4CC2-B7BE-AFF086868FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C65923A-8422-4CC2-B7BE-AFF086868FBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
